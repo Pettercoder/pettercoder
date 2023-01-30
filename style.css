@@ -1,34 +1,75 @@
 h1{
-  border: 5px solid red;
+  border: 5px solid yellow;
   border-radius: 15px;
-  background-color: rgba(250, 0, 0, 0.2);
+  background-color: black;
   padding: 20px;
+  color: yellow;
+  margin-right: 1000px;
 
 }
 
-td:hover {
-  background-color: darkblue;
+td:hover, th:hover, a:hover {
+  background-color: yellow;
+  color: black;
 }
 
- table, td, th {
-   border: 6px solid lightblue;
+ td, th {
+   border: 6px solid yellow;
    font-size: 25px;
    border-collapse: collapse;
    font-family: Comic Sans;
-   background-color: lightpink;
+   background-color: black;
    border-radius: 10px;
    padding: 20px;
+   color: yellow;
 }
 
-th:hover {
-  background-color: darkblue;
+td:hover a, th:hover a {
+  background-color: yellow;
+  color: black;
 }
 
-
-
+body {
+  background-color: gray;
+}
 
 
 tr {
-
   margin: 0px;
+}
+
+.menu {
+  color: yellow;
+  border: 6px solid yellow;
+  border-collapse: collapse;
+  font-family: Comic Sans;
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 1000px;
+}
+
+iframe {
+  color: yellow;
+  border: 6px solid yellow;
+  border-collapse: collapse;
+  font-family: Comic Sans;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+table {
+  font-size: 25px;
+  border-collapse: collapse;
+  font-family: Comic Sans;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  color: yellow;
 }
